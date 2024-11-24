@@ -1,0 +1,582 @@
+Starting simulation with p=2, c=2, b=3
+Launching producers...
+Launching consumers...
+Consumer 2 local sales: 258731.00
+Consumer 1 local sales: 242328.67
+Simulation completed.
+Global sales: 501059.562500
+Elapsed time: 15.768273 seconds
+Store-wise sales:
+  Store 2: 258798.84
+  Store 1: 242260.84
+Month-wise sales:
+  Month 12: 31133.64
+  Month 11: 40559.04
+  Month 8: 47605.47
+  Month 10: 41389.89
+  Month 2: 47370.91
+  Month 7: 45713.98
+  Month 3: 35149.58
+  Month 1: 51061.16
+  Month 9: 45589.77
+  Month 4: 37711.24
+  Month 6: 34313.01
+  Month 5: 43461.93
+--------------------------------------
+Starting simulation with p=2, c=5, b=3
+Launching producers...
+Launching consumers...
+Consumer 3 local sales: 109496.69
+Consumer 1 local sales: 97477.39
+Consumer 5 local sales: 101793.79
+Consumer 2 local sales: 97593.88
+Consumer 4 local sales: 105978.07
+Simulation completed.
+Global sales: 512340.000000
+Elapsed time: 15.549424 seconds
+Store-wise sales:
+  Store 2: 256642.16
+  Store 1: 255697.89
+Month-wise sales:
+  Month 3: 43093.01
+  Month 12: 42214.88
+  Month 11: 41992.26
+  Month 8: 45458.24
+  Month 10: 42567.90
+  Month 5: 44927.10
+  Month 4: 39525.41
+  Month 6: 36952.16
+  Month 2: 48787.17
+  Month 1: 40726.38
+  Month 9: 44798.06
+  Month 7: 41297.34
+--------------------------------------
+Starting simulation with p=2, c=10, b=3
+Launching producers...
+Launching consumers...
+Consumer 8 local sales: 53411.73
+Consumer 2 local sales: 52752.63
+Consumer 9 local sales: 49389.02
+Consumer 6 local sales: 48582.30
+Consumer 4 local sales: 53022.36
+Consumer 3 local sales: 50624.36
+Consumer 10 local sales: 52345.75
+Consumer 5 local sales: 50042.00
+Consumer 7 local sales: 50882.79
+Consumer 1 local sales: 50331.03
+Simulation completed.
+Global sales: 511383.656250
+Elapsed time: 15.671669 seconds
+Store-wise sales:
+  Store 2: 254556.22
+  Store 1: 256827.98
+Month-wise sales:
+  Month 10: 40481.40
+  Month 6: 35821.26
+  Month 7: 46485.66
+  Month 3: 37824.04
+  Month 1: 37800.97
+  Month 2: 44414.84
+  Month 8: 48379.01
+  Month 9: 53272.40
+  Month 4: 42394.43
+  Month 12: 35427.43
+  Month 5: 44035.86
+  Month 11: 45046.69
+--------------------------------------
+Starting simulation with p=5, c=2, b=3
+Launching producers...
+Launching consumers...
+Consumer 1 local sales: 618347.44
+Consumer 2 local sales: 630194.44
+Simulation completed.
+Global sales: 1248541.000000
+Elapsed time: 39.086376 seconds
+Store-wise sales:
+  Store 3: 246516.38
+  Store 4: 262881.34
+  Store 5: 243740.86
+  Store 2: 236822.39
+  Store 1: 258581.34
+Month-wise sales:
+  Month 1: 94292.62
+  Month 7: 103830.13
+  Month 11: 89045.48
+  Month 10: 118431.52
+  Month 8: 109700.97
+  Month 4: 109497.25
+  Month 3: 106107.73
+  Month 5: 104561.78
+  Month 9: 99343.78
+  Month 2: 105691.28
+  Month 12: 103197.45
+  Month 6: 104842.02
+--------------------------------------
+Starting simulation with p=5, c=5, b=3
+Launching producers...
+Launching consumers...
+Consumer 3 local sales: 259374.95
+Consumer 5 local sales: 244369.44
+Consumer 2 local sales: 248010.19
+Consumer 1 local sales: 266968.53
+Consumer 4 local sales: 256743.94
+Simulation completed.
+Global sales: 1275467.750000
+Elapsed time: 15.740888 seconds
+Store-wise sales:
+  Store 5: 261139.14
+  Store 4: 254750.39
+  Store 3: 255239.38
+  Store 2: 249738.28
+  Store 1: 254599.86
+Month-wise sales:
+  Month 2: 102196.64
+  Month 9: 108706.52
+  Month 3: 97865.41
+  Month 12: 102258.80
+  Month 4: 117717.29
+  Month 8: 106283.81
+  Month 10: 99503.06
+  Month 5: 92230.64
+  Month 7: 108452.43
+  Month 11: 110261.12
+  Month 6: 116340.18
+  Month 1: 113650.98
+--------------------------------------
+Starting simulation with p=5, c=10, b=3
+Launching producers...
+Launching consumers...
+Consumer 7 local sales: 132283.03
+Consumer 1 local sales: 122036.52
+Consumer 4 local sales: 131851.17
+Consumer 6 local sales: 124188.57
+Consumer 10 local sales: 129223.73
+Consumer 5 local sales: 120175.53
+Consumer 2 local sales: 128877.48
+Consumer 8 local sales: 125284.23
+Consumer 9 local sales: 125436.40
+Consumer 3 local sales: 118659.49
+Simulation completed.
+Global sales: 1258016.750000
+Elapsed time: 15.688703 seconds
+Store-wise sales:
+  Store 5: 260616.89
+  Store 4: 240711.44
+  Store 3: 246731.16
+  Store 2: 258308.44
+  Store 1: 251647.98
+Month-wise sales:
+  Month 9: 99304.70
+  Month 10: 95711.05
+  Month 11: 117607.44
+  Month 1: 103744.53
+  Month 7: 110269.86
+  Month 6: 112071.18
+  Month 8: 96877.46
+  Month 12: 124272.85
+  Month 2: 113764.24
+  Month 4: 79461.85
+  Month 5: 98434.51
+  Month 3: 106496.50
+--------------------------------------
+Starting simulation with p=10, c=2, b=3
+Launching producers...
+Launching consumers...
+Consumer 2 local sales: 1259817.75
+Consumer 1 local sales: 1237880.12
+Simulation completed.
+Global sales: 2497695.250000
+Elapsed time: 76.877884 seconds
+Store-wise sales:
+  Store 6: 251739.95
+  Store 8: 249741.05
+  Store 10: 250309.38
+  Store 9: 251362.84
+  Store 7: 260950.30
+  Store 4: 237043.84
+  Store 5: 252666.14
+  Store 3: 240826.31
+  Store 2: 252804.75
+  Store 1: 250251.58
+Month-wise sales:
+  Month 9: 195793.95
+  Month 3: 201417.36
+  Month 7: 210210.91
+  Month 2: 220784.86
+  Month 8: 207868.20
+  Month 10: 203581.03
+  Month 6: 216353.44
+  Month 12: 203116.94
+  Month 1: 186076.88
+  Month 11: 207440.28
+  Month 4: 222830.14
+  Month 5: 222222.30
+--------------------------------------
+Starting simulation with p=10, c=5, b=3
+Launching producers...
+Launching consumers...
+Consumer 3 local sales: 485802.66
+Consumer 4 local sales: 490853.66
+Consumer 2 local sales: 506204.31
+Consumer 1 local sales: 498070.47
+Consumer 5 local sales: 496981.66
+Simulation completed.
+Global sales: 2477913.500000
+Elapsed time: 31.075467 seconds
+Store-wise sales:
+  Store 10: 245299.53
+  Store 9: 248915.25
+  Store 8: 240018.81
+  Store 5: 253301.39
+  Store 4: 250517.89
+  Store 7: 247780.86
+  Store 6: 244273.42
+  Store 3: 245554.12
+  Store 2: 248164.36
+  Store 1: 254087.14
+Month-wise sales:
+  Month 7: 204214.20
+  Month 4: 227208.80
+  Month 11: 192568.28
+  Month 10: 213075.02
+  Month 8: 204991.72
+  Month 3: 215776.89
+  Month 1: 198336.12
+  Month 2: 216316.34
+  Month 12: 191963.77
+  Month 9: 214101.91
+  Month 6: 198185.44
+  Month 5: 201174.08
+--------------------------------------
+Starting simulation with p=10, c=10, b=3
+Launching producers...
+Launching consumers...
+Consumer 9 local sales: 237602.23
+Consumer 4 local sales: 255390.75
+Consumer 3 local sales: 247969.30
+Consumer 7 local sales: 246504.23
+Consumer 1 local sales: 246952.14
+Consumer 5 local sales: 255432.27
+Consumer 6 local sales: 241639.98
+Consumer 8 local sales: 240395.78
+Consumer 2 local sales: 257932.84
+Consumer 10 local sales: 243639.66
+Simulation completed.
+Global sales: 2473461.750000
+Elapsed time: 15.646474 seconds
+Store-wise sales:
+  Store 10: 251219.83
+  Store 6: 239950.14
+  Store 8: 249565.52
+  Store 5: 247030.62
+  Store 9: 248700.52
+  Store 7: 240284.44
+  Store 2: 252142.55
+  Store 4: 253960.34
+  Store 3: 246799.62
+  Store 1: 243805.62
+Month-wise sales:
+  Month 11: 200440.44
+  Month 1: 217672.83
+  Month 8: 190379.09
+  Month 12: 216406.41
+  Month 9: 219709.12
+  Month 6: 202761.56
+  Month 4: 247923.47
+  Month 3: 188743.16
+  Month 5: 189672.59
+  Month 2: 183462.84
+  Month 7: 197858.64
+  Month 10: 218429.20
+--------------------------------------
+Starting simulation with p=2, c=2, b=10
+Launching producers...
+Launching consumers...
+Consumer 1 local sales: 254721.30
+Consumer 2 local sales: 245511.92
+Simulation completed.
+Global sales: 500233.187500
+Elapsed time: 15.746823 seconds
+Store-wise sales:
+  Store 2: 252677.00
+  Store 1: 247556.20
+Month-wise sales:
+  Month 2: 42570.35
+  Month 12: 48457.57
+  Month 11: 41329.77
+  Month 9: 35688.14
+  Month 7: 41128.65
+  Month 8: 42971.89
+  Month 10: 44567.31
+  Month 5: 40409.52
+  Month 3: 33186.99
+  Month 1: 41862.70
+  Month 6: 45010.32
+  Month 4: 43050.07
+--------------------------------------
+Starting simulation with p=2, c=5, b=10
+Launching producers...
+Launching consumers...
+Consumer 4 local sales: 106832.64
+Consumer 2 local sales: 104415.21
+Consumer 3 local sales: 99568.84
+Consumer 5 local sales: 96958.22
+Consumer 1 local sales: 95811.83
+Simulation completed.
+Global sales: 503586.156250
+Elapsed time: 15.655992 seconds
+Store-wise sales:
+  Store 2: 246405.02
+  Store 1: 257181.39
+Month-wise sales:
+  Month 6: 37231.30
+  Month 5: 43893.28
+  Month 3: 42668.29
+  Month 8: 44609.34
+  Month 7: 37122.29
+  Month 11: 46445.04
+  Month 4: 39361.47
+  Month 2: 33756.28
+  Month 10: 42258.83
+  Month 1: 43281.33
+  Month 9: 40184.20
+  Month 12: 52774.87
+--------------------------------------
+Starting simulation with p=2, c=10, b=10
+Launching producers...
+Launching consumers...
+Consumer 5 local sales: 53920.00
+Consumer 6 local sales: 48371.79
+Consumer 4 local sales: 46949.98
+Consumer 8 local sales: 49254.46
+Consumer 2 local sales: 46547.11
+Consumer 7 local sales: 48710.48
+Consumer 1 local sales: 53835.09
+Consumer 3 local sales: 49329.51
+Consumer 10 local sales: 51562.85
+Consumer 9 local sales: 50842.61
+Simulation completed.
+Global sales: 499323.968750
+Elapsed time: 15.715073 seconds
+Store-wise sales:
+  Store 2: 251770.06
+  Store 1: 247553.66
+Month-wise sales:
+  Month 7: 42594.46
+  Month 8: 43146.75
+  Month 1: 39399.25
+  Month 9: 38776.56
+  Month 6: 41299.56
+  Month 12: 36216.67
+  Month 3: 45257.18
+  Month 5: 55729.39
+  Month 11: 36545.45
+  Month 2: 40165.44
+  Month 10: 38509.70
+  Month 4: 41683.46
+--------------------------------------
+Starting simulation with p=5, c=2, b=10
+Launching producers...
+Launching consumers...
+Consumer 1 local sales: 642134.88
+Consumer 2 local sales: 623601.75
+Simulation completed.
+Global sales: 1265734.125000
+Elapsed time: 38.823436 seconds
+Store-wise sales:
+  Store 5: 250261.75
+  Store 4: 269258.66
+  Store 2: 252996.38
+  Store 3: 249224.06
+  Store 1: 243995.52
+Month-wise sales:
+  Month 2: 103196.11
+  Month 7: 102978.23
+  Month 12: 100809.05
+  Month 5: 99869.93
+  Month 10: 98412.27
+  Month 3: 104894.87
+  Month 4: 113232.18
+  Month 11: 107809.86
+  Month 8: 99465.35
+  Month 9: 109167.69
+  Month 6: 104068.20
+  Month 1: 121832.44
+--------------------------------------
+Starting simulation with p=5, c=5, b=10
+Launching producers...
+Launching consumers...
+Consumer 2 local sales: 252581.73
+Consumer 4 local sales: 250335.73
+Consumer 5 local sales: 245403.02
+Consumer 1 local sales: 250872.52
+Consumer 3 local sales: 251143.61
+Simulation completed.
+Global sales: 1250338.500000
+Elapsed time: 15.561537 seconds
+Store-wise sales:
+  Store 3: 258977.61
+  Store 4: 248686.92
+  Store 5: 252092.83
+  Store 2: 238192.33
+  Store 1: 252386.86
+Month-wise sales:
+  Month 5: 107997.37
+  Month 10: 106517.57
+  Month 3: 95508.03
+  Month 12: 94349.52
+  Month 8: 99369.73
+  Month 4: 109177.62
+  Month 2: 98957.54
+  Month 7: 98233.80
+  Month 6: 115620.54
+  Month 1: 104015.83
+  Month 11: 99199.78
+  Month 9: 121389.13
+--------------------------------------
+Starting simulation with p=5, c=10, b=10
+Launching producers...
+Launching consumers...
+Consumer 4 local sales: 121727.92
+Consumer 3 local sales: 122528.63
+Consumer 5 local sales: 114556.71
+Consumer 2 local sales: 131899.27
+Consumer 10 local sales: 134036.83
+Consumer 9 local sales: 114239.83
+Consumer 1 local sales: 124969.90
+Consumer 7 local sales: 131898.92
+Consumer 8 local sales: 128956.59
+Consumer 6 local sales: 117600.10
+Simulation completed.
+Global sales: 1242415.875000
+Elapsed time: 15.724016 seconds
+Store-wise sales:
+  Store 5: 246378.12
+  Store 3: 255868.97
+  Store 4: 253589.66
+  Store 2: 244387.34
+  Store 1: 242190.73
+Month-wise sales:
+  Month 6: 98930.87
+  Month 9: 107670.30
+  Month 11: 96527.96
+  Month 10: 81538.50
+  Month 5: 91583.95
+  Month 1: 96341.29
+  Month 7: 110789.02
+  Month 2: 116318.44
+  Month 4: 106655.81
+  Month 8: 113580.17
+  Month 12: 112098.01
+  Month 3: 110380.40
+--------------------------------------
+Starting simulation with p=10, c=2, b=10
+Launching producers...
+Launching consumers...
+Consumer 2 local sales: 1279119.38
+Consumer 1 local sales: 1290268.75
+Simulation completed.
+Global sales: 2569388.750000
+Elapsed time: 76.991330 seconds
+Store-wise sales:
+  Store 10: 256285.08
+  Store 9: 252257.11
+  Store 8: 266036.50
+  Store 4: 250391.81
+  Store 6: 258268.22
+  Store 7: 258176.70
+  Store 5: 254174.25
+  Store 3: 261789.92
+  Store 2: 252488.11
+  Store 1: 259521.62
+Month-wise sales:
+  Month 4: 219774.55
+  Month 1: 216781.50
+  Month 3: 208999.94
+  Month 12: 206930.67
+  Month 2: 216689.16
+  Month 11: 205519.19
+  Month 7: 218507.25
+  Month 6: 229900.89
+  Month 10: 198534.34
+  Month 8: 229166.11
+  Month 9: 202754.69
+  Month 5: 215831.03
+--------------------------------------
+Starting simulation with p=10, c=5, b=10
+Launching producers...
+Launching consumers...
+Consumer 3 local sales: 509022.81
+Consumer 4 local sales: 508456.41
+Consumer 5 local sales: 498214.81
+Consumer 1 local sales: 503906.91
+Consumer 2 local sales: 498384.25
+Simulation completed.
+Global sales: 2517988.000000
+Elapsed time: 31.207548 seconds
+Store-wise sales:
+  Store 10: 259570.34
+  Store 8: 255187.03
+  Store 7: 256105.92
+  Store 9: 245135.66
+  Store 5: 251423.48
+  Store 6: 246429.28
+  Store 4: 253123.52
+  Store 3: 246612.14
+  Store 2: 255651.08
+  Store 1: 248746.52
+Month-wise sales:
+  Month 12: 233637.98
+  Month 9: 203453.78
+  Month 5: 207588.12
+  Month 7: 193669.70
+  Month 6: 195297.38
+  Month 2: 216222.88
+  Month 11: 220373.08
+  Month 4: 191158.94
+  Month 1: 226106.80
+  Month 10: 210154.72
+  Month 8: 208222.59
+  Month 3: 212099.08
+--------------------------------------
+Starting simulation with p=10, c=10, b=10
+Launching producers...
+Launching consumers...
+Consumer 4 local sales: 253984.19
+Consumer 3 local sales: 253929.22
+Consumer 5 local sales: 254436.09
+Consumer 9 local sales: 257172.88
+Consumer 8 local sales: 245700.48
+Consumer 1 local sales: 256732.33
+Consumer 6 local sales: 251108.11
+Consumer 2 local sales: 260254.16
+Consumer 7 local sales: 251654.22
+Consumer 10 local sales: 252074.78
+Simulation completed.
+Global sales: 2537050.000000
+Elapsed time: 15.618751 seconds
+Store-wise sales:
+  Store 10: 254709.44
+  Store 9: 245367.25
+  Store 8: 266950.66
+  Store 7: 257009.11
+  Store 6: 258032.03
+  Store 5: 246488.14
+  Store 4: 242662.50
+  Store 3: 249147.20
+  Store 2: 266007.03
+  Store 1: 250673.05
+Month-wise sales:
+  Month 8: 235965.34
+  Month 4: 204452.80
+  Month 5: 214363.97
+  Month 12: 216199.11
+  Month 3: 212164.38
+  Month 11: 220106.84
+  Month 9: 214987.45
+  Month 6: 210436.17
+  Month 7: 199573.30
+  Month 1: 208468.02
+  Month 2: 224972.12
+  Month 10: 175356.92
+--------------------------------------

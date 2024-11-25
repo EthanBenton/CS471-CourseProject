@@ -1,0 +1,51 @@
+ Page Size        # Pages       # Frames      Algorithm              Faults
+       512            196              4           FIFO                2411
+       512            196              4            LRU                2400
+       512            196              4            MRU                2793
+       512            196              4        Optimal                1699
+ Page Size        # Pages       # Frames      Algorithm              Faults
+       512            196              8           FIFO                1830
+       512            196              8            LRU                1803
+       512            196              8            MRU                2745
+       512            196              8        Optimal                1027
+ Page Size        # Pages       # Frames      Algorithm              Faults
+       512            196             12           FIFO                1289
+       512            196             12            LRU                1262
+       512            196             12            MRU                2669
+       512            196             12        Optimal                 636
+ Page Size        # Pages       # Frames      Algorithm              Faults
+      1024             98              4           FIFO                1842
+      1024             98              4            LRU                1814
+      1024             98              4            MRU                2581
+      1024             98              4        Optimal                1137
+ Page Size        # Pages       # Frames      Algorithm              Faults
+      1024             98              8           FIFO                 708
+      1024             98              8            LRU                 684
+      1024             98              8            MRU                2431
+      1024             98              8        Optimal                 338
+ Page Size        # Pages       # Frames      Algorithm              Faults
+      1024             98             12           FIFO                 107
+      1024             98             12            LRU                 107
+      1024             98             12            MRU                2318
+      1024             98             12        Optimal                 102
+Page Size        # Pages       # Frames      Algorithm              Faults
+      2048             49              4           FIFO                 800
+      2048             49              4           FIFO                 800
+      2048             49              4            LRU                 781
+      2048             49              4            MRU                2202
+      2048             49              4        Optimal                 419
+ Page Size        # Pages       # Frames      Algorithm              Faults
+      2048             49              8           FIFO                  57
+      2048             49              8            LRU                  57
+      2048             49              8            MRU                1989
+      2048             49              8        Optimal                  52
+ Page Size        # Pages       # Frames      Algorithm              Faults
+      2048             49             12           FIFO                  55
+      2048             49             12            LRU                  55
+      2048             49             12            MRU                1812
+      2048             49             12        Optimal                  49
+	  
+	  Expectedly Optimal replacement has the least amount of page faults out of all page replacement algorithims. MRU algoritm performs worst in this data set.
+	  To get a more accurate analysis of the different forms of page replacement different test data should be used as well. 
+	  The page size has a larger impact on performance than number of frames available. Increasing either page size or number of frames does improve the operation of any
+	  method of page replacement. 

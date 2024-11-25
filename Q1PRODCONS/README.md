@@ -107,26 +107,28 @@ This report:
 
 ##### Timing Results
 
-| **Buffer Size (b)** | **Producers (p)** | **Consumers (c)** | **Time (seconds)** |
-|----------------------|-------------------|-------------------|--------------------|
-| 3                    | 2                 | 2                 | *[Timing Data]*    |
-| 3                    | 2                 | 5                 | *[Timing Data]*    |
-| 3                    | 2                 | 10                | *[Timing Data]*    |
-| 3                    | 5                 | 2                 | *[Timing Data]*    |
-| 3                    | 5                 | 5                 | *[Timing Data]*    |
-| 3                    | 5                 | 10                | *[Timing Data]*    |
-| 3                    | 10                | 2                 | *[Timing Data]*    |
-| 3                    | 10                | 5                 | *[Timing Data]*    |
-| 3                    | 10                | 10                | *[Timing Data]*    |
-| 10                   | 2                 | 2                 | *[Timing Data]*    |
-| 10                   | 2                 | 5                 | *[Timing Data]*    |
-| 10                   | 2                 | 10                | *[Timing Data]*    |
-| 10                   | 5                 | 2                 | *[Timing Data]*    |
-| 10                   | 5                 | 5                 | *[Timing Data]*    |
-| 10                   | 5                 | 10                | *[Timing Data]*    |
-| 10                   | 10                | 2                 | *[Timing Data]*    |
-| 10                   | 10                | 5                 | *[Timing Data]*    |
-| 10                   | 10                | 10                | *[Timing Data]*    |
+The following table shows the time taken (in seconds) for each configuration of buffer size (`b`), producers (`p`), and consumers (`c`):
+
+| Buffer Size (b) | Producers (p) | Consumers (c) | Time (seconds) |
+|------------------|---------------|---------------|----------------|
+| 3                | 2             | 2             | 30.943         |
+| 3                | 2             | 5             | 31.1081        |
+| 3                | 2             | 10            | 30.9365        |
+| 3                | 5             | 2             | 77.1477        |
+| 3                | 5             | 5             | 30.8725        |
+| 3                | 5             | 10            | 31.1241        |
+| 3                | 10            | 2             | 153.336        |
+| 3                | 10            | 5             | 61.3629        |
+| 3                | 10            | 10            | 30.8975        |
+| 10               | 2             | 2             | 31.008         |
+| 10               | 2             | 5             | 31.1123        |
+| 10               | 2             | 10            | 30.9527        |
+| 10               | 5             | 2             | 76.6941        |
+| 10               | 5             | 5             | 30.9712        |
+| 10               | 5             | 10            | 30.9936        |
+| 10               | 10            | 2             | 153.454        |
+| 10               | 10            | 5             | 61.624         |
+| 10               | 10            | 10            | 31.0578        |
 
 ##### Performance Trends
 
@@ -181,25 +183,27 @@ This project demonstrated the implementation of a producer-consumer system with 
 
 ### Observation:
 
-- **Small buffer size (`b = 3`)**:
-  - When the number of producers (`p`) goes up, the total time increases a lot if there are not many consumers (`c`):
-    - `p=2, c=2`: ~15.77s
-    - `p=5, c=2`: ~39.09s
-    - `p=10, c=2`: ~76.88s
-  - When there are more consumers (`c = 10`), the total time stays low (~15.65s) because the consumers can handle the extra work.
+- **Small Buffer Size (`b = 3`)**:
+  - Low consumer counts (`c=2`) lead to significantly higher times when producer counts (`p`) increase:
+    - `p=2, c=2`: 30.943s
+    - `p=5, c=2`: 77.1477s
+    - `p=10, c=2`: 153.336s
+  - Increasing consumer counts stabilizes the times:
+    - `p=10, c=10`: 30.8975s.
 
-- **Large buffer size (`b = 10`)**:
-  - The total time also increases for low consumer counts (`c = 2`):
-    - `p=2, c=2`: ~15.75s
-    - `p=5, c=2`: ~38.82s
-    - `p=10, c=2`: ~76.99s
-  - For higher consumer counts (`c = 10`), the time stays low (~15.62s), even with many producers.
+- **Large Buffer Size (`b = 10`)**:
+  - Larger buffers reduce contention slightly for higher producer counts but follow similar trends:
+    - `p=2, c=2`: 31.008s
+    - `p=5, c=2`: 76.6941s
+    - `p=10, c=2`: 153.454s
+  - High consumer counts (`c=10`) help maintain stable times:
+    - `p=10, c=10`: 31.0578s.
 
 ### Explanation:
 
-- When the number of producers increases, the buffer fills up faster, so producers and consumers have to wait more often.
-- If there aren’t enough consumers (`c=2`), they cannot keep up with the work, which slows everything down.
-- A larger buffer helps reduce waiting, but too many producers still cause delays.
+- When the number of producers increases, the buffer fills up faster, causing contention between producers and consumers.
+- Increasing consumer counts reduces this contention, allowing more stable times.
+- A larger buffer slightly mitigates delays but cannot overcome the bottleneck of too few consumers.
 
 ---
 
@@ -207,22 +211,21 @@ This project demonstrated the implementation of a producer-consumer system with 
 
 ### Observation:
 
-- **Small buffer size (`b = 3`)**:
-  - Adding more consumers (`c`) lowers or stabilizes the total time:
-    - `p=2`: ~15.77s → ~15.55s → ~15.67s
-    - `p=5`: ~39.09s → ~15.74s → ~15.69s
-    - `p=10`: ~76.88s → ~31.08s → ~15.65s
+- **Small Buffer Size (`b = 3`)**:
+  - More consumers (`c`) significantly stabilize times:
+    - `p=2, c=2`: 30.943s
+    - `p=2, c=10`: 30.9365s.
+    - `p=5, c=2`: 77.1477s → `p=5, c=10`: 31.1241s.
+    - `p=10, c=2`: 153.336s → `p=10, c=10`: 30.8975s.
 
-- **Large buffer size (`b = 10`)**:
-  - More consumers also reduce or stabilize the time:
-    - `p=2`: ~15.75s → ~15.66s → ~15.72s
-    - `p=5`: ~38.82s → ~15.56s → ~15.72s
-    - `p=10`: ~76.99s → ~31.21s → ~15.62s
+- **Large Buffer Size (`b = 10`)**:
+  - Similar stabilization observed:
+    - `p=10, c=2`: 153.454s → `p=10, c=10`: 31.0578s.
 
 ### Explanation:
 
-- Adding more consumers allows the buffer to be emptied faster, so producers can keep working without delays.
-- With many consumers (`c=10`), the system becomes faster and more stable because there are enough threads to handle the load.
+- More consumers allow faster emptying of the buffer, reducing delays for producers.
+- This leads to stable performance even with higher producer counts.
 
 ---
 
@@ -230,21 +233,19 @@ This project demonstrated the implementation of a producer-consumer system with 
 
 ### Observation:
 
-- **Few producers (`p=2`)**:
-  - Changing the buffer size doesn’t make much difference:
-    - `c=2, b=3`: ~15.77s
-    - `c=2, b=10`: ~15.75s
+- **Few Producers (`p=2`)**:
+  - Buffer size has minimal impact as contention is low:
+    - `b=3, c=2`: 30.943s → `b=10, c=2`: 31.008s.
 
-- **Many producers (`p=10`)**:
-  - A larger buffer reduces the time significantly when there are more consumers (`c=5`):
-    - `c=5, b=3`: ~31.08s
-    - `c=5, b=10`: ~31.21s
-  - The time is similar for high consumer counts (`c=10`) because the buffer is not a bottleneck anymore.
+- **Many Producers (`p=10`)**:
+  - Larger buffers reduce contention slightly:
+    - `b=3, c=5`: 61.3629s → `b=10, c=5`: 61.624s.
+    - `b=3, c=10`: 30.8975s → `b=10, c=10`: 31.0578s.
 
 ### Explanation:
 
-- A larger buffer gives producers more room to add records, which reduces delays caused by a full buffer.
-- However, when there are enough consumers, the buffer size doesn’t matter as much because records are processed quickly.
+- Larger buffers help reduce contention when producer counts are high, especially with moderate consumer counts.
+- However, with sufficient consumers (`c=10`), buffer size has less impact as processing is balanced.
 
 ---
 

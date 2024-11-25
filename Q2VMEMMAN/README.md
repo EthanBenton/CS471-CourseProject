@@ -130,17 +130,17 @@ This project demonstrated the functionality and efficiency of the different algo
 
 If you wish to compile question one from this directory run the command
 
-`g++ src\VirtualMemory.cpp -o executable\VirtualMemory`
+`g++ src\PageReplacement.cpp -o executable\PageReplacement`
 
 The executable will the be located in the [executable](/Q2VMEMMAN/executable/) directory, you can then run the executable wiith the following commands:
 
 Linux:
 
-`./executable/VirtualMemory.exe`
+`./executable/PageReplacement.exe`
 
 Windows:
 
-`.\executable\VirtualMemory.exe`
+`.\executable\PageReplacement.exe`
 
 The output will be located in the [output](/Q2VMEMMAN/output/results.txt) file and the `console`
 
